@@ -150,15 +150,39 @@
   font-style: italic;
 }
 
-// Sorts Mill Goudy Master
+// STIX Two Text Regular
 @font-face {
-  font-family: "Sorts Mill Goudy";
-  src: url("../fonts/sorts-mill-goudy-master/GoudyStM-webfont.eot");
-  src: url("../fonts/sorts-mill-goudy-master/GoudyStM-webfont.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/sorts-mill-goudy-master/GoudyStM-webfont.woff") format("woff");
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXtwotext-regular/STIXTwoText-Regular.eot");
+  src: url("../fonts/STIXtwotext-regular/STIXTwoText-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/STIXtwotext-regular/STIXTwoText-Regular.woff2") format("woff2"),
+       url("../fonts/STIXtwotext-regular/STIXTwoText-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
+
+// STIX Two Text Semi Bold
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-SemiBold/STIXTwoText-SemiBold.eot");
+  src: url("../fonts/STIXTwoText-SemiBold/STIXTwoText-SemiBold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/STIXTwoText-SemiBold/STIXTwoText-SemiBold.woff2") format("woff2"),
+       url("../fonts/STIXTwoText-SemiBold/STIXTwoText-SemiBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+// STIX Two Text Italic
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-Italic/STIXTwoText-Italic.eot");
+  src: url("../fonts/STIXTwoText-Italic/STIXTwoText-Italic.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/STIXTwoText-Italic/STIXTwoText-Italic.woff2") format("woff2"),
+       url("../fonts/STIXTwoText-Italic/STIXTwoText-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
 
 /**
 * Load material icon font

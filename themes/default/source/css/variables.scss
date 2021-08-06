@@ -22,9 +22,9 @@ $navbar: normal;
 // -----------------------------------------------------------------------------
 // This theme includes three embedded, open license fonts, and also uses
 // the widely available Times (files of which are not otherwise included here).
-$ibm-sans: 'IBM Plex Sans Condensed', sans-serif;
-$noto-sans: 'Noto Sans', sans-serif;
-$noto-serif: 'Noto Serif', serif;
+$ibm-sans: 'STIX Two Text', sans-serif;
+$noto-sans: 'STIX Two Text', sans-serif;
+$noto-serif: 'STIX Two Text', serif;
 $times-serif: Times, serif;
 
 // Page typography
@@ -73,10 +73,10 @@ $print-entry-image-display: all; // first | all
 // Themes
 // -----------------------------------------------------------------------------
 // Declare theme variables
-$quire-primary-font: null; // body and menu text
-$quire-headings-font: null; // headings
-$quire-footnotes-font: null; // footnotes and page backmatter
-$quire-navigation-font: null; // navbar and next/prev buttons
+$quire-primary-font: $ibm-sans; // body and menu text
+$quire-headings-font: $ibm-sans; // headings
+$quire-footnotes-font: $ibm-sans; // footnotes and page backmatter
+$quire-navigation-font: $ibm-sans; // navbar and next/prev buttons
 
 @if $theme == classic {
   // Classic Theme
