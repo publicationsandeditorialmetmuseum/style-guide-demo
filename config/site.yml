@@ -9,5 +9,5 @@
 #
 # If you are using the Quire commands, this will happen automatically.
 
-baseURL: "https://publicationsandeditorialmetmuseum.github.io/style-guide-demo/"
+baseURL: "https://publicationsandeditorialmetmuseum.github.io/style-guide-demo"
 relativeURLs: true
