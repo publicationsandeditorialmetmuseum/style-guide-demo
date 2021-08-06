@@ -150,6 +150,16 @@
   font-style: italic;
 }
 
+// Sorts Mill Goudy Master
+@font-face {
+  font-family: "Sorts Mill Goudy";
+  src: url("../fonts/sorts-mill-goudy-master/GoudyStM-webfont.eot");
+  src: url("../fonts/sorts-mill-goudy-master/GoudyStM-webfont.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/sorts-mill-goudy-master/GoudyStM-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 /**
 * Load material icon font
 */
