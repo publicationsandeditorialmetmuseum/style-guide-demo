@@ -7,12 +7,12 @@
 // .quire-cover
 // -----------------------------------------------------------------------------
 .quire-cover {
-  
-  
+
+
   @media print {
     $splash-page-width: $print-width + $print-bleed + $print-bleed;
     $splash-page-height: $print-height + $print-bleed + $print-bleed;
-    
+
     width: $splash-page-width;
     height: $splash-page-height;
     margin: -$print-bleed;
@@ -44,7 +44,7 @@
     @media print {
       width: 100%;
       height: 100%;
-      
+
       .hero-body {
         height: auto;
         // title/author box
@@ -58,14 +58,13 @@
     .title {
       font-family: $quire-headings-font;
       font-size: calc(2rem * #{$quire-cover-text-scale});
-      font-weight: 700;
-      line-height: 1.07;
-      margin-bottom: calc(.5rem * #{$quire-cover-text-scale});
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: calc(3rem * #{$quire-cover-text-scale});
       color: $quire-cover-text-color;
       @media print {
         font-size: 40pt;
         margin-top: 0;
-        margin-bottom: 1em;
         color: $quire-cover-text-color;
         page-break-before: right;
       }
@@ -73,21 +72,21 @@
 
     .subtitle {
       display: block;
-      margin-top: calc(.5rem * #{$quire-cover-text-scale});
+      margin-top: calc(1.5rem * #{$quire-cover-text-scale});
       font-size: calc(1.5rem * #{$quire-cover-text-scale});
-      font-weight: 400;
+      font-weight: 500;
       line-height: 1.02;
       color: $quire-cover-text-color;
       @media print {
         font-size: 30pt;
-        margin-top: .25em;
+        margin-top: 3rem;
         color: $quire-cover-text-color;
       }
     }
 
     .reading-line {
       font-family: $quire-headings-font;
-      font-style: italic;
+      font-style: normal;
       font-size: calc(1.25rem * #{$quire-cover-text-scale});
       line-height: 1.2;
       color: $quire-cover-text-color;
@@ -98,12 +97,14 @@
     }
 
     .contributor {
-      font-family: $quire-headings-font;
-      font-size: calc(1em * #{$quire-cover-text-scale});
-      margin-top: calc(.5rem * #{$quire-cover-text-scale});
+      font-family: 'Cardo';
+      font-weight: 400;
+      font-style: normal;
+      font-size: calc(1rem * #{$quire-cover-text-scale});
+      margin-top: calc(0.5rem * #{$quire-cover-text-scale});
       color: $quire-cover-text-color;
       @media print {
-        font-size: 18pt;
+        font-size: 21pt;
         color: $quire-cover-text-color;
       }
     }
@@ -211,6 +212,29 @@
 
 }
 
+// Arrow colour on Cover Page
+.quire-cover__more .hero-more {
+    background: #d42525;
+}
 
+// Container box for text (colour and padding) on Cover Page
+.hero-body .container.is-fluid {
+    display: inline-block;
+    max-width: none;
+    position: relative;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 60px 60px;
+    margin: 0 1rem;
+    bottom: 0;
+    text-align: center;
+    border: 0px solid $red;
+}
 
-
+.quire-cover__hero .contributor {
+    font-family: 'Cardo', sans-serif;
+    font-size: 1.35rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: 0;
+}

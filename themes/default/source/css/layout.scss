@@ -184,3 +184,27 @@
     }
   }
 }
+
+// Page headers in Navbar (Uppercase)
+.quire h1, .quire-page h1, .quire-page__header__title, .quire-cover__hero-body.hero-body.cva-cover {
+    font-family: 'Cardo', serif;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+// Text in Navbar (Uppercase)
+.quire-navbar {
+    font-size: .875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero-body {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 5rem 0.1rem;
+}

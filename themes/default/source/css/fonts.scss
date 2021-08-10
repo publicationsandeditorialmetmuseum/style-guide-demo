@@ -183,6 +183,83 @@
   font-style: italic;
 }
 
+// Crimson Text Regular
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../fonts/CrimsonText-Regular/CrimsonText-Regular.eot");
+  src: url("../fonts/CrimsonText-Regular/CrimsonText-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/CrimsonText-Regular/CrimsonText-Regular.woff2") format("woff2"),
+       url("../fonts/CrimsonText-Regular/CrimsonText-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Crimson Semi Bold
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../fonts/CrimsonText-SemiBold/CrimsonText-SemiBold.eot");
+  src: url("../fonts/CrimsonText-SemiBold/CrimsonText-SemiBold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/CrimsonText-SemiBold/CrimsonText-SemiBold.woff2") format("woff2"),
+       url("../fonts/CrimsonText-SemiBold/CrimsonText-SemiBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Crimson Italic
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../fonts/CrimsonText-Italic/CrimsonText-Italic.eot");
+  src: url("../fonts/CrimsonText-Italic/CrimsonText-Italic.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/CrimsonText-Italic/CrimsonText-Italic.woff2") format("woff2"),
+       url("../fonts/CrimsonText-Italic/CrimsonText-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+// Crimson Bold
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../fonts/CrimsonText-Bold/CrimsonText-Bold.eot");
+  src: url("../fonts/CrimsonText-Bold/CrimsonText-Bold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/CrimsonText-Bold/CrimsonText-Bold.woff2") format("woff2"),
+       url("../fonts/CrimsonText-Bold/CrimsonText-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Cardo Regular
+@font-face {
+  font-family: "Cardo";
+  src: url("../fonts/Cardo-Regular/Cardo-Regular.eot");
+  src: url("../fonts/Cardo-Regular/Cardo-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Cardo-Regular/Cardo-Regular.woff2") format("woff2"),
+       url("../fonts/Cardo-Regular/Cardo-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Cardo Bold
+@font-face {
+  font-family: "Cardo";
+  src: url("../fonts/Cardo-Bold/Cardo-Bold.eot");
+  src: url("../fonts/Cardo-Bold/Cardo-Bold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Cardo-Bold/Cardo-Bold.woff2") format("woff2"),
+       url("../fonts/Cardo-Bold/Cardo-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Cardo Italic
+@font-face {
+  font-family: "Cardo";
+  src: url("../fonts/Cardo-Italic/Cardo-Italic.eot");
+  src: url("../fonts/Cardo-Italic/Cardo-Italic.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Cardo-Italic/Cardo-Italic.woff2") format("woff2"),
+       url("../fonts/Cardo-Italic/Cardo-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
 
 /**
 * Load material icon font

@@ -63,8 +63,8 @@ html {
 
   h1,
   &__header__title {
-    font-size: 3em;
-    font-weight: 700;
+    font-size: 2.5em;
+    font-weight: 500;
     line-height: 1.15;
     margin: 1rem 0;
 
@@ -626,14 +626,14 @@ html {
           @media print {
             margin-top: 0;
           }
-        }  
+        }
       }
       .hero-body {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-grow: .7;
-      }   
+      }
     }
     background-color: transparent;
     .hero-body {
@@ -798,7 +798,7 @@ html {
       em {
         font-style: normal;
       }
-      
+
       // footnote numbers in blockquotes should be roman
       sup.footnote-ref {
         font-style: normal;

@@ -22,10 +22,10 @@ $navbar: normal;
 // -----------------------------------------------------------------------------
 // This theme includes three embedded, open license fonts, and also uses
 // the widely available Times (files of which are not otherwise included here).
-$ibm-sans: 'STIX Two Text', sans-serif;
-$noto-sans: 'STIX Two Text', sans-serif;
-$noto-serif: 'STIX Two Text', serif;
-$times-serif: Times, serif;
+$ibm-sans: 'Cardo', sans-serif;
+$noto-sans: 'Cardo', sans-serif;
+$noto-serif: 'Cardo', serif;
+$times-serif: 'Cardo', serif;
 
 // Page typography
 // -----------------------------------------------------------------------------
@@ -34,7 +34,7 @@ $quire-page-paragraph-style: line-space; // or use indent
 
 // Cover typography
 // -----------------------------------------------------------------------------
-$quire-cover-text-color: $white;
+$quire-cover-text-color: $off-black;
 $quire-cover-text-scale: 1; // use decimal numbers such as .8 or 1.3
 
 // Menu
@@ -84,7 +84,7 @@ $quire-navigation-font: $ibm-sans; // navbar and next/prev buttons
   $quire-headings-font: $times-serif !default;
   $quire-footnotes-font: $noto-sans !default;
   $quire-navigation-font: $noto-sans !default;
-  $accent-color: $red !default;
+  $accent-color: #d42525 !default;
   $content-background-color: $white !default;
   $secondary-background-color: $content-background-color;
 } @else {
@@ -104,9 +104,9 @@ $navbar-height: 3rem;
 $quire-progress-bar-height: 2px;
 
 // Declare navbar colors
-$quire-navbar-color: null;
-$quire-navbar-hover-color: null;
-$quire-navbar-text-color: null;
+$quire-navbar-color: $white;
+$quire-navbar-hover-color: $white;
+$quire-navbar-text-color: $black;
 
 @if $navbar == accent {
   // Accent Navbar
@@ -134,7 +134,7 @@ $quire-cover-color-2: null;
   $quire-cover-color-1: $accent-color !default;
   $quire-cover-color-2: $red !default;
 } @else {
-  $quire-cover-color-1: $blue !default;
+  $quire-cover-color-1: $red !default;
   $quire-cover-color-2: $accent-color !default;
 }
 
