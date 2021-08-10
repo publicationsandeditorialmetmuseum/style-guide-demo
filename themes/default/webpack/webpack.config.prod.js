@@ -77,7 +77,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "[style-guide-demo]/img/"
+              outputPath: "style-guide-demo/img/"
             }
           }
         ]
@@ -89,7 +89,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "[style-guide-demo]/fonts/"
+              outputPath: "style-guide-demo/fonts/"
             }
           }
         ]
